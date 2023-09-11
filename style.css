@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0;400&display=swap');
 
 body {
+    font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
 
-.header {
+.header{
     background-color: #1f2937;
-    font-family: Roboto, sans-serif;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -19,12 +22,12 @@ body {
 
 .header,
  h2 {
-   padding-left: 128px; 
+   padding-left: 100px; 
  }
 
 .header, 
 ul {
-    padding: 0 110px 0 0;
+    padding: 0 100px 0 0;
     list-style: none;
     display: flex;
     font-weight: lighter;
@@ -35,4 +38,50 @@ ul {
  li {
     font-size: 18px;
     gap: 18px;
+}
+
+.opening {
+    background-color: #1f2937;
+    font-family: Roboto, sans-serif;
+    color: white;
+    display: flex;
+    padding: 0;
+    padding: 90px 100px 100px 100px;
+    gap: 20px;
+}
+
+.opening-left {
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.opening-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 50%;
+ }
+
+.opening-left h1 {
+    font-size: 48px;
+    padding: 0 10px 0 0;
+    margin: 0;
+}
+
+.open-para {
+    margin: 0 0 20px 0;
+    font-weight: lighter;
+    width: 70%;
+}
+
+.signup {
+    color: white; 
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 128px;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    padding: 8px 0 8px 0;
 }
