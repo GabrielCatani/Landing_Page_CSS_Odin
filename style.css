@@ -85,3 +85,33 @@ ul {
     font-size: 18px;
     padding: 8px 0 8px 0;
 }
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content-img-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 13%;
+}
+
+.content-img-info img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    padding: 64px 48px 64px 48px;
+}
+
+.content-img-info p {
+    text-align: center;
+    font-weight: 100;
+}
