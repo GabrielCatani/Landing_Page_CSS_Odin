@@ -114,4 +114,53 @@ ul {
 .content-img-info p {
     text-align: center;
     font-weight: 100;
+    color: #1f2937;
+}
+
+.content-quote {
+    background-color: #e5e7eb;
+    padding: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-quote 
+.quote {
+   font-size: 36px;
+   padding: 0 80px 0;
+   font-style: italic;
+   font-weight: lighter;
+   color: #1f2937;
+   margin: 0;
+}
+
+.content-quote
+.signature {
+   font-size: 30px;
+   color: #1f2937;
+   padding-left: 600px;
+   margin: 0;
+}
+
+.content-call-label {
+    background-color: #3882f6;
+    margin: 50px 200px;
+    border-radius: 10px;
+    padding: 40px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 260px;
+}
+
+.content-call-text {
+    
+}
+
+.content-call-text, 
+ h3, 
+ p {
+    color: white;
+    padding: 0;
+    margin: 0;
 }
