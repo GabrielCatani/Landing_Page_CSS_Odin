@@ -22,12 +22,12 @@ body {
 
 .header,
  h2 {
-   padding-left: 100px; 
+   padding-left: 100px;
  }
 
 .header, 
 ul {
-    padding: 0 100px 0 0;
+    padding: 0 50px 0 0;
     list-style: none;
     display: flex;
     font-weight: lighter;
